@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4f4;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+  width: 80vw;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container form input {
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  transition: .3s linear;
+  padding: 10px
+}
+
+.container input:valid {
+  border: 1px solid green;
+}
+
+.container input:invalid {
+  border: 1px solid red;
+}
+
+.container .form-group {
+  margin-bottom: 20px;
+}
+
+.container button {
+  border: 0;
+  background-color: #222;
+  padding: 20px 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s ease;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container button:hover {
+  background-color: #5d2436;
+}
+
+.container button:focus {
+  outline: none;
+}
+
+.message-container {
+  border: 1px solid #222;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #222;
+}
